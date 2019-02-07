@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             if currentImage.frame.contains(selectedPoint) {
                 yourChoice = currentImage
             }
-            
+            images()
         }
         
        }
